@@ -17,5 +17,10 @@ Parts have all been selected. Pinouts for the amplifiers are defined (standard
 `BIOPAC TSD150 pinout`_). Pinout for the 5x2 header to the DAQ has not been 
 defined, hence the schematic and board layout are not complete.
 
+Notes
+=====
+* The red wire in the cable assmebly corrsponds to the top left pin of the
+  connector when looking at the holes with the key on top.
+
 .. REFERENCE LINKS
 .. _`BIOPAC TSD150 pinout`: http://www.motion-labs.com/support_docs_connect.html
