@@ -13,11 +13,5 @@ electrode can be plugged in to a header pin.
 
 Status
 ======
-Parts have all been selected. Pinouts have been defined in the schematic, but 
-they still need to be reviewed and cleaned up. Should add a power switch. Board
-layout just barely started.
-
-Notes
-=====
-* The red wire in the cable assmebly corrsponds to the top left pin of the
-  connector when looking at the holes with the key on top.
+Schematic is complete. Board layout is somewhat complete and a routing "rough
+draft" is done. There are some problems with the GND polygon.
