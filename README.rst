@@ -13,5 +13,4 @@ electrode can be plugged in to a header pin.
 
 Status
 ======
-Schematic is complete. Board layout is somewhat complete and a routing "rough
-draft" is done. There are some problems with the GND polygon.
+Revision 1 complete. Needs to be double-checked, then it's ready to be printed.
