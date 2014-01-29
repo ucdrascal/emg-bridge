@@ -113,8 +113,8 @@
 <wire x1="88.265" y1="0" x2="91.44" y2="3.81" width="0" layer="20" curve="90"/>
 <wire x1="3.175" y1="50.8" x2="0" y2="47.625" width="0" layer="20" curve="90"/>
 <wire x1="88.265" y1="50.8" x2="91.44" y2="47.625" width="0" layer="20" curve="-90"/>
-<text x="63.5" y="30.48" size="2.1844" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">emg-bridge</text>
-<text x="66.04" y="30.48" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="bottom-center">REV 1</text>
+<text x="63.119" y="30.48" size="2.1844" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">emg-bridge</text>
+<text x="65.151" y="30.48" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="bottom-center">REV 1</text>
 <text x="18.415" y="20.955" size="1.27" layer="21" font="vector" ratio="12" rot="R90" align="center-left">CH1</text>
 <text x="29.845" y="20.955" size="1.27" layer="21" font="vector" ratio="12" rot="R90" align="center-left">CH2</text>
 <text x="41.275" y="20.955" size="1.27" layer="21" font="vector" ratio="12" rot="R90" align="center-left">CH3</text>
@@ -225,6 +225,22 @@ Digikey PN: A19920-ND</description>
 <wire x1="17.78" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="1.27" x2="-2.54" y2="-5.842" width="0.127" layer="21"/>
 <circle x="-1.27" y="-4.445" radius="0.635" width="0.127" layer="21"/>
+</package>
+<package name="LED_RA">
+<description>5mm LED bent at a right angle in a rectangular housing.</description>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="3.415" y="2.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.4004" y="-4.5734" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-3" y1="-5" x2="-2.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-5" x2="2.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-5" x2="3" y2="-5" width="0.127" layer="21"/>
+<wire x1="3" y1="-5" x2="3" y2="4" width="0.127" layer="21"/>
+<wire x1="3" y1="4" x2="-3" y2="4" width="0.127" layer="21"/>
+<wire x1="-3" y1="4" x2="-3" y2="-5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-5.7" x2="2.5" y2="-5.7" width="0.127" layer="51" curve="180"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="-5.7" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-5" x2="2.5" y2="-5.7" width="0.127" layer="51"/>
 </package>
 </packages>
 </library>
@@ -981,7 +997,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J2" library="eagle-lib" package="RJ25_4X1" value="RJ25_4X1" x="58.2676" y="40.64" rot="R180"/>
 <element name="J3" library="eagle-lib" package="TE_640389-3" value="M03_0.156IN-RA" x="66.929" y="16.51" smashed="yes" rot="R180"/>
 <element name="J6" library="SparkFun-Connectors" package="2X5-RAF" value="M05X2RAF" x="8.89" y="24.13" smashed="yes" rot="R180"/>
-<element name="U$1" library="ucdrascal-eagle-lib" package="UCDAVIS-RASCAL_LOGO" value="UCDAVIS-RASCAL_LOGO-2LINE" x="81.534" y="7.62" rot="R90"/>
+<element name="U$1" library="ucdrascal-eagle-lib" package="UCDAVIS-RASCAL_LOGO" value="UCDAVIS-RASCAL_LOGO-2LINE" x="69.723" y="30.353" rot="R90"/>
 <element name="U1" library="eagle-lib" package="SIP7" value="DC_ISOLATOR-RKZ0505D" x="81.28" y="43.18" rot="R180"/>
 <element name="J5" library="SparkFun-Connectors" package="USB-B-PTH" value="USB-B" x="82.677" y="21.209" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08278" x="82.677" y="21.209" size="1.778" layer="27" rot="R180" display="off"/>
@@ -996,6 +1012,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="70.231" y="37.6555" size="0.4064" layer="26" font="vector" rot="MR0" align="top-center"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="94.234" y="33.909" smashed="yes" rot="R90"/>
+<element name="D1" library="eagle-lib" package="LED_RA" value="LED_LA93B" x="85.725" y="9.652" smashed="yes" rot="R90"/>
+<element name="R17" library="SparkFun-Passives" package="0805" value="" x="81.28" y="11.43" smashed="yes" rot="MR90">
+<attribute name="NAME" x="80.137" y="11.3665" size="0.4064" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="79.883" y="10.414" size="0.4064" layer="28" rot="MR90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1295,6 +1316,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="91.44" y="0"/>
 <vertex x="91.44" y="50.8"/>
 </polygon>
+<contactref element="D1" pad="K"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="1"/>
@@ -1309,6 +1331,17 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="81.28" y1="41.91" x2="80.01" y2="40.64" width="0.8128" layer="16"/>
 <wire x1="80.01" y1="40.64" x2="80.01" y2="34.433" width="0.8128" layer="16"/>
 <wire x1="80.01" y1="34.433" x2="80.534" y2="33.909" width="0.8128" layer="16"/>
+<contactref element="R17" pad="2"/>
+<wire x1="81.28" y1="12.33" x2="80.38" y2="12.33" width="0.4064" layer="16"/>
+<wire x1="80.38" y1="12.33" x2="78.74" y2="13.97" width="0.4064" layer="16"/>
+<wire x1="78.74" y1="13.97" x2="78.74" y2="20.5032" width="0.4064" layer="16"/>
+<wire x1="78.74" y1="20.5032" x2="80.6958" y2="22.459" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$4">
+<contactref element="R17" pad="1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="85.725" y1="8.382" x2="83.428" y2="8.382" width="0.4064" layer="16"/>
+<wire x1="83.428" y1="8.382" x2="81.28" y2="10.53" width="0.4064" layer="16"/>
 </signal>
 </signals>
 </board>
