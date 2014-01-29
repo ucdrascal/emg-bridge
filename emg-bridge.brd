@@ -1014,7 +1014,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J4" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="94.234" y="33.909" smashed="yes" rot="R90"/>
 <element name="D1" library="eagle-lib" package="LED_RA" value="LED_LA93B" x="85.725" y="9.652" smashed="yes" rot="R90"/>
 <element name="R17" library="SparkFun-Passives" package="0805" value="" x="81.28" y="11.43" smashed="yes" rot="MR90">
-<attribute name="NAME" x="80.137" y="11.3665" size="0.4064" layer="26" rot="MR0"/>
+<attribute name="NAME" x="80.137" y="11.3665" size="0.4064" layer="26" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="79.883" y="10.414" size="0.4064" layer="28" rot="MR90"/>
 </element>
 </elements>
