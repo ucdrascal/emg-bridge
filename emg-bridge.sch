@@ -3039,7 +3039,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
 <part name="D1" library="eagle-lib" deviceset="LED" device="_LA93B"/>
-<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 </parts>
 <sheets>
 <sheet>
